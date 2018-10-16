@@ -116,13 +116,25 @@ a.button1:hover{
 }
 </style>
 
+
+<script>
+document.body.classList.add('js-loading');
+
+window.addEventListener("load", showPage);
+
+function showPage() {
+  document.body.classList.remove('js-loading');
+}
+</script>
+
+
 </head>
 
 <body>
 
 
 
-<div id="container" class="w3-animate-zoom, js-loading">
+<div id="container" class="w3-animate-zoom">
 
 
 
