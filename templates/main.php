@@ -1,5 +1,5 @@
 <style>img[alt*="www.000webhost.com"] {
-    display: none;} 
+    display: none;}
 img[alt="www.000webhost.com"]{display:none;}
 </style>
 
@@ -46,10 +46,10 @@ html body {
 
 #frm {
 	padding:10px 15px;
-	
-	
+
+
 	border:1px solid #ffffff;
-	
+
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
@@ -108,61 +108,69 @@ a.button1:hover{
 }
 </style>
 
+<style>
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+</style>
+
 </head>
 
 <body>
 
 
 
-<div id="container" class="w3-animate-zoom">
+<div id="container" class="w3-animate-zoom, js-loading">
 
-	
+
 
 <div style="text-align:center;">
 
 
-		
-		
-		
-		
+
+
+
+
 		<h1 style="color:#ffffff;">Welcome to MikeLime's Web Proxy!</h1>
-          														
+
 		<h3 style="color:#ffffff;">With MikeLime's free web proxy, you can browse the internet freely without your school being able to see what you're doing! This web proxy will even unblock websites, and we have a wide selection of unblocked games.</h3>
-	
 
 
 
 
-	
+
+
 	<?php if(isset($error_msg)){ ?>
-	
+
 	<div id="error">
 		<p><?php echo $error_msg; ?></p>
 	</div>
-	
+
 	<?php } ?>
-	
+
 	<div id="frm">
-	
+
 	<!-- I wouldn't touch this part -->
-	
+
 		<form action="index.php" method="post" style="margin-bottom:0;">
 			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
 			<input type="submit" value="Go" />
 		</form>
-		
+
 		<script type="text/javascript">
 			document.getElementsByName("url")[0].focus();
 		</script>
-		
+
 	<!-- [END] -->
-	
+
 	</div>
-	
+
 
 	<div style="text-align:center;">
 		<h2 style="color:#ffffff;">Just type a website in the bar above and click go!</h2>
-	 	
+
 
 <br>
 </br>
