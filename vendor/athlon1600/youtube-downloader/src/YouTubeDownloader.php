@@ -80,8 +80,6 @@ class YouTubeDownloader {
 		78 => "MP4 480p",
 	
 		43 => "WebM 360p",
-		
-		17 => "3GP 144p"
 	);
 	
 	function __construct(){
