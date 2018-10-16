@@ -187,8 +187,12 @@ function showPage() {
 <br>
 </br>
 
-
-
+<a href="https://agile-brushlands-89379.herokuapp.com/" class="button1">Proxy</a>
+<a href="https://sourlime.cf/games.html" class="button1">Games</a>
+<a href="https://sourlime.cf/movies.html" class="button1">Movies</a>
+<a href="https://sourlime.cf/chatbox.html" class="button1">Chatbox</a>
+<br/>
+<br/>
 <iframe data-aa='1023524' src='//ad.a-ads.com/1023524?size=200x90' scrolling='no' style='width:200px; height:90px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
 <br>
 </br>

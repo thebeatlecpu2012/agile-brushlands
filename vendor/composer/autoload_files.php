@@ -8,5 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     '5e97df31a48c3d8473c36e3f1c45e0a4' => $vendorDir . '/athlon1600/youtube-downloader/src/YouTubeDownloader.php',
     '311a7016008bd2d1bccdd3da08cf87ee' => $vendorDir . '/athlon1600/php-proxy-plugin-bundle/src/utils.php',
-    '091eedaa79e0211348d44db56cc8e223' => $vendorDir . '/shirtjs/php-proxy/src/helpers.php',
+    'fe17454461a24db888b8da8720edd309' => $vendorDir . '/athlon1600/php-proxy/src/helpers.php',
 );
