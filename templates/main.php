@@ -26,7 +26,7 @@ img[alt="www.000webhost.com"]{display:none;}
 <meta name="KeyWords" content="unblocked games, web proxy, how to unblock websites, website unblocker, unblock games, proxysite">
 <meta name="google-site-verification" content="Dq5W8bNH90DDy-tTImw5oFxSnS01ZYwENdl9Xp12WMo" />
 
-<script type="text/javascript" src="http://ylx-4.com/layer.php?section=General&pub=324864&ga=g&fp"></script>
+
 <style type="text/css">
 html body {
 	font-family: Arial,Helvetica,sans-serif;
