@@ -42,12 +42,12 @@ $config['curl'] = array(
 	// CURLOPT_CONNECTTIMEOUT => 5
 );
 
-//$config['replace_title'] = 'Google Search';
+//$config['replace_title'] = "My Drive - Google Drive";
 
 //$config['error_redirect'] = "https://unblockvideos.com/#error={error_msg}";
 //$config['index_redirect'] = 'https://unblockvideos.com/';
 
-// $config['replace_icon'] = 'icon_url';
+// $config['replace_icon'] = "favicon.ico";
 
 // this better be here other Config::load fails
 return $config;

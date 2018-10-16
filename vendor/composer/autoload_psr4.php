@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Proxy\\Plugin\\' => array($vendorDir . '/athlon1600/php-proxy-plugin-bundle/src'),
-    'Proxy\\' => array($vendorDir . '/athlon1600/php-proxy/src'),
+    'Proxy\\' => array($vendorDir . '/shirtjs/php-proxy/src'),
 );

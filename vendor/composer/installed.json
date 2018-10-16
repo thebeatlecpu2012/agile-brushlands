@@ -1,5 +1,40 @@
 [
     {
+        "name": "athlon1600/php-proxy-plugin-bundle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Athlon1600/php-proxy-plugin-bundle.git",
+            "reference": "6f58fbba44c2b6ccf33c2fba1aaee2f3f5681193"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Athlon1600/php-proxy-plugin-bundle/zipball/6f58fbba44c2b6ccf33c2fba1aaee2f3f5681193",
+            "reference": "6f58fbba44c2b6ccf33c2fba1aaee2f3f5681193",
+            "shasum": ""
+        },
+        "require": {
+            "athlon1600/youtube-downloader": "^1.0"
+        },
+        "time": "2018-04-01T19:18:27+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Proxy\\Plugin\\": "src/"
+            },
+            "files": [
+                "src/utils.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "A collection of useful plugins to be used with php-proxy"
+    },
+    {
         "name": "athlon1600/youtube-downloader",
         "version": "v1.0.1",
         "version_normalized": "1.0.1.0",
@@ -17,7 +52,7 @@
         "require": {
             "ext-curl": "*"
         },
-        "time": "2017-02-26 19:17:47",
+        "time": "2017-02-26T19:17:47+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -37,54 +72,13 @@
         ]
     },
     {
-        "name": "athlon1600/php-proxy-plugin-bundle",
+        "name": "shirtjs/php-proxy",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/Athlon1600/php-proxy-plugin-bundle.git",
-            "reference": "575232e4abfbf5933dd15e33c2089ebb22c09c53"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Athlon1600/php-proxy-plugin-bundle/zipball/575232e4abfbf5933dd15e33c2089ebb22c09c53",
-            "reference": "575232e4abfbf5933dd15e33c2089ebb22c09c53",
-            "shasum": ""
-        },
-        "require": {
-            "athlon1600/youtube-downloader": "^1.0"
-        },
-        "time": "2018-02-24 03:33:10",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Proxy\\Plugin\\": "src/"
-            },
-            "files": [
-                "src/utils.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "description": "A collection of useful plugins to be used with php-proxy"
-    },
-    {
-        "name": "athlon1600/php-proxy",
-        "version": "v5.1.1",
-        "version_normalized": "5.1.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Athlon1600/php-proxy.git",
-            "reference": "09ae057d3651087664401b7754624bd8cd8cf472"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Athlon1600/php-proxy/zipball/09ae057d3651087664401b7754624bd8cd8cf472",
-            "reference": "09ae057d3651087664401b7754624bd8cd8cf472",
-            "shasum": ""
+            "url": "https://github.com/shirtjs/php-proxy",
+            "reference": "b9c681e90316224c46de256761358f6b039ba8eb"
         },
         "require": {
             "ext-curl": "*"
@@ -92,9 +86,9 @@
         "suggest": {
             "predis/predis": "For caching purposes"
         },
-        "time": "2017-12-25 20:05:11",
+        "time": "2018-05-04T18:09:34+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "Proxy\\": "src/"
@@ -103,7 +97,6 @@
                 "src/helpers.php"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
