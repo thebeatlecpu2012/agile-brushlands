@@ -1,32 +1,19 @@
 <style>img[alt*="www.000webhost.com"] {
-    display: none;} 
+    display: none;}
+code made by Titanumnetwork, 
 img[alt="www.000webhost.com"]{display:none;}
 </style>
-
-
+<html>
+<script>print("document.URL;");</script>
 <!DOCTYPE html>
 <html>
 <head>
+<body style="background-color:black;">
+<title>TitaniumNetwork Proxy</title>
 
-<body>
-
-
-
-
-
-<body>
-<title>My Drive - Google Drive</title>
-  <link rel="shortcut icon" type="image/x-icon" href="mikelime.ico" />
-<meta name="generator" content="MikeLime's Web Proxy">
+<meta name="generator" content="php-proxy.com">
 <meta name="version" content="<?=$version;?>">
-<meta name="description" content="With MikeLime's free web proxy, you can browse the internet freely without your school being able to see what you're doing! This web proxy will even unblock websites, and we have a wide selection of unblocked games.">
-<link rel="canonical" href="https://www.mikelime.ml">
-<meta charset="utf-8">
-<meta name="application-name" content="MikeLime's Web Proxy">
-<meta name="KeyWords" content="unblocked games, web proxy, how to unblock websites, website unblocker, unblock games, proxysite">
-<meta name="google-site-verification" content="Dq5W8bNH90DDy-tTImw5oFxSnS01ZYwENdl9Xp12WMo" />
 
-<script type="text/javascript" src="http://ylx-4.com/layer.php?section=General&pub=324864&ga=g&fp"></script>
 <style type="text/css">
 html body {
 	font-family: Arial,Helvetica,sans-serif;
@@ -36,7 +23,7 @@ html body {
 #container {
 	width:500px;
 	margin:0 auto;
-	margin-top:50px;
+	margin-top:150px;
 }
 
 #error {
@@ -46,9 +33,9 @@ html body {
 
 #frm {
 	padding:10px 15px;
+	background-color:#1f1f14;
 	
-	
-	border:1px solid #ffffff;
+	border:1px solid #6600ff;
 	
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -63,76 +50,18 @@ html body {
 }
 </style>
 
-<style>
-
-body {
-  background:url("/wallpaper.jpg");
-
-  background-position: center center;
-  text-align:center;
-  background-repeat: fill;
-
-    background-attachment: fixed;
-
-        background-size: 100% 100%;
-}
-</style>
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-<style>
-
-a.button1{
- display:inline-block;
- padding:1.5em 3.0em;
- border:0.1em solid #FFFFFF;
- margin:0 0.3em 0.3em 0;
- border-radius:0.12em;
- box-sizing: border-box;
- text-decoration:none;
- font-family:'Roboto',sans-serif;
- font-weight:300;
- color:#FFFFFF;
- text-align:center;
- transition: all 0.2s;
-}
-a.button1:hover{
- color:#000000;
- background-color:#FFFFFF;
-}
-@media all and (max-width:30em){
- a.button1{
-  display:block;
-  margin:0.4em auto;
- }
-}
-</style>
-
 </head>
 
 <body>
 
 
+<div id="container">
 
-<div id="container" class="w3-animate-zoom">
-
-	
-
-<div style="text-align:center;">
-
-
-		
-		
-		
-		
-		<h1 style="color:#ffffff;">Welcome to MikeLime's Web Proxy!</h1>
-          														
-		<h3 style="color:#ffffff;">With MikeLime's free web proxy, you can browse the internet freely without your school being able to see what you're doing! This web proxy will even unblock websites, and we have a wide selection of unblocked games.</h3>
-	
-
-
-
-
+	<div style="text-align:center;">
+		<h1 style="color:purple;">Titanium Network Proxy</h1>
+                <h1 style="color:green;">Wherearewenow.ml Proxy</h1>														
+		<h3 style="color:blue;">Using the titaniumnetwork proxy will allow you to anonymously visit any site you wish. Due to its anonymous nature, you can even unblock websites that are blocked by school and work firewalls!</h3>
+	</div>
 	
 	<?php if(isset($error_msg)){ ?>
 	
@@ -159,26 +88,18 @@ a.button1:hover{
 	
 	</div>
 	
-
-	<div style="text-align:center;">
-		<h2 style="color:#ffffff;">Just type a website in the bar above and click go!</h2>
-	 	
-
-<br>
-</br>
-
-<a href="https://sourlime.cf/index.php" class="button1">Proxy</a>
-<a href="https://sourlime.cf/games.html" class="button1">Games</a>
-<a href="https://sourlime.cf/movies.html" class="button1">Movies</a>
-<a href="https://sourlime.cf/chatbox.html" class="button1">Chatbox</a>
-
-<iframe data-aa='1023524' src='//ad.a-ads.com/1023524?size=200x90' scrolling='no' style='width:200px; height:90px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
-<br>
-</br>
-
 </div>
-
-
+	<div style="text-align:center;">
+		<h2 style="color:blue;">Websites that can be unblocked include the following : </h2>
+		<h3 style="color:green;">Youtube</h3>
+		<h3 style="color:green;">Reddit</h3>
+		<h3 style="color:green;">Twitter</h3>
+		<h3 style="color:green;">Dailymotion</h3>
+		<h3 style="color:green;">Liveleaks</h3>
+		<h3 style="color:green;">And many more!</h3>
+	    </div
+<div id="footer">
+	Powered by <a href="//www.falcon-sha256.weebly.com" target="_blank">TitaniumNetwork</a>
 </div>
 
 
