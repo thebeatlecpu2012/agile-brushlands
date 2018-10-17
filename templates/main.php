@@ -112,7 +112,7 @@ function showPage() {
 <br/>
 <br/>
 </div>
-	<div style="text-align:center;">
+	<div style="text-align:center;" class="w3-animate-zoom">
 		<h3 style="color:#ffffff;">Just type a website in the bar above and click go!</h2>
       <br/>
       <br/>
