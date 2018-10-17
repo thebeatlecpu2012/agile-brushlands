@@ -50,6 +50,25 @@ html body {
 }
 </style>
 
+<style>
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+</style>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<script>
+document.body.classList.add('js-loading');
+
+window.addEventListener("load", showPage);
+
+function showPage() {
+  document.body.classList.remove('js-loading');
+}
+</script>
 
 
 
@@ -58,7 +77,7 @@ html body {
 <body>
 
 
-<div id="container">
+<div id="container" class="w3-animate-zoom">
 
 	<div style="text-align:center;">
 		<h1 style="color:#ffffff;">MikeLime's Web Proxy</h1>
