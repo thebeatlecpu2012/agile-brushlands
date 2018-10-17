@@ -23,7 +23,7 @@ html body {
 #container {
 	width:500px;
 	margin:0 auto;
-	margin-top:100px;
+	margin-top:85px;
 }
 
 #error {
@@ -108,7 +108,8 @@ function showPage() {
 	<!-- [END] -->
 
 	</div>
-
+<br/>
+<br/>
 </div>
 	<div style="text-align:center;">
 		<h2 style="color:#ffffff;">Just type a website in the bar above and click go!</h2>
