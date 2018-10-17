@@ -1,6 +1,6 @@
 <style>img[alt*="www.000webhost.com"] {
     display: none;}
-code made by Titanumnetwork, 
+code made by Titanumnetwork,
 img[alt="www.000webhost.com"]{display:none;}
 </style>
 <html>
@@ -8,8 +8,8 @@ img[alt="www.000webhost.com"]{display:none;}
 <!DOCTYPE html>
 <html>
 <head>
-<body style="background-color:black;">
-<title>TitaniumNetwork Proxy</title>
+<body>
+<title>MikeLime Proxy</title>
 
 <meta name="generator" content="php-proxy.com">
 <meta name="version" content="<?=$version;?>">
@@ -33,10 +33,10 @@ html body {
 
 #frm {
 	padding:10px 15px;
-	background-color:#1f1f14;
-	
-	border:1px solid #6600ff;
-	
+
+
+	border:1px solid #ffffff;
+
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
@@ -50,6 +50,22 @@ html body {
 }
 </style>
 
+<style>
+
+body {
+  background:url("/wallpaper.jpg");
+
+  background-position: center center;
+  text-align:center;
+  background-repeat: fill;
+
+    background-attachment: fixed;
+
+        background-size: 100% 100%;
+}
+</style>
+
+
 </head>
 
 <body>
@@ -58,49 +74,40 @@ html body {
 <div id="container">
 
 	<div style="text-align:center;">
-		<h1 style="color:purple;">Titanium Network Proxy</h1>
-                <h1 style="color:green;">Wherearewenow.ml Proxy</h1>														
-		<h3 style="color:blue;">Using the titaniumnetwork proxy will allow you to anonymously visit any site you wish. Due to its anonymous nature, you can even unblock websites that are blocked by school and work firewalls!</h3>
+		<h1 style="color:#ffffff;">MikeLimes</h1>
+		<h3 style="color:#ffffff;">With MikeLime's free web proxy, you can browse the internet freely without your school being able to see what you're doing! This web proxy will even unblock websites, and we have a wide selection of unblocked games.</h3>
 	</div>
-	
+
 	<?php if(isset($error_msg)){ ?>
-	
+
 	<div id="error">
 		<p><?php echo $error_msg; ?></p>
 	</div>
-	
+
 	<?php } ?>
-	
+
 	<div id="frm">
-	
+
 	<!-- I wouldn't touch this part -->
-	
+
 		<form action="index.php" method="post" style="margin-bottom:0;">
 			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
 			<input type="submit" value="Go" />
 		</form>
-		
+
 		<script type="text/javascript">
 			document.getElementsByName("url")[0].focus();
 		</script>
-		
+
 	<!-- [END] -->
-	
+
 	</div>
-	
+
 </div>
 	<div style="text-align:center;">
-		<h2 style="color:blue;">Websites that can be unblocked include the following : </h2>
-		<h3 style="color:green;">Youtube</h3>
-		<h3 style="color:green;">Reddit</h3>
-		<h3 style="color:green;">Twitter</h3>
-		<h3 style="color:green;">Dailymotion</h3>
-		<h3 style="color:green;">Liveleaks</h3>
-		<h3 style="color:green;">And many more!</h3>
-	    </div
-<div id="footer">
-	Powered by <a href="//www.falcon-sha256.weebly.com" target="_blank">TitaniumNetwork</a>
-</div>
+		<h2 style="color:#ffffff;">Just type a website in the bar above and click go!</h2>
+
+
 
 
 </body>
