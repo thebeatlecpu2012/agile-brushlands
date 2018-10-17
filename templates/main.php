@@ -1,6 +1,5 @@
 <style>img[alt*="www.000webhost.com"] {
     display: none;}
-code made by Titanumnetwork,
 img[alt="www.000webhost.com"]{display:none;}
 </style>
 <html>
