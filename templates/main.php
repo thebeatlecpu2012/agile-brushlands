@@ -50,20 +50,7 @@ html body {
 }
 </style>
 
-<style>
 
-body {
-  background:url("/wallpaper.jpg");
-
-  background-position: center center;
-  text-align:center;
-  background-repeat: fill;
-
-    background-attachment: fixed;
-
-        background-size: 100% 100%;
-}
-</style>
 
 
 </head>
@@ -74,7 +61,7 @@ body {
 <div id="container">
 
 	<div style="text-align:center;">
-		<h1 style="color:#ffffff;">MikeLimes</h1>
+		<h1 style="color:#ffffff;">MikeLime's Web Proxy</h1>
 		<h3 style="color:#ffffff;">With MikeLime's free web proxy, you can browse the internet freely without your school being able to see what you're doing! This web proxy will even unblock websites, and we have a wide selection of unblocked games.</h3>
 	</div>
 
