@@ -23,7 +23,7 @@ html body {
 #container {
 	width:500px;
 	margin:0 auto;
-	margin-top:150px;
+	margin-top:100px;
 }
 
 #error {
