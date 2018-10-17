@@ -1,57 +1,107 @@
-
-<!DOCTYPE HTML>
+<style>img[alt*="www.000webhost.com"] {
+    display: none;}
+code made by Titanumnetwork, 
+img[alt="www.000webhost.com"]{display:none;}
+</style>
 <html>
-
+<script>print("document.URL;");</script>
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
-    <title>Google Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<body style="background-color:black;">
+<title>TitaniumNetwork Proxy</title>
+
+<meta name="generator" content="php-proxy.com">
+<meta name="version" content="<?=$version;?>">
+
+<style type="text/css">
+html body {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+#container {
+	width:500px;
+	margin:0 auto;
+	margin-top:150px;
+}
+
+#error {
+	color:red;
+	font-weight:bold;
+}
+
+#frm {
+	padding:10px 15px;
+	background-color:#1f1f14;
+	
+	border:1px solid #6600ff;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#footer {
+	text-align:center;
+	font-size:10px;
+	margin-top:35px;
+	clear:both;
+}
+</style>
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="banner">
-            <span id="mail"><a href="#">Gmail</a></span>
-            <span id="images"><a href="#">Images</a></span>
-            <span id="apps"><!-- App Icon --></span>
-            <span id="login">
-				<button id="signin">Sign In</button>
-			</span>
-        </div>
-        <div class="logo">
-            <span id="google">
-				<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
-			</span>
-        </div>
-	<form action="index.php" id="form" method="post">
-        <div class="search">
-            <input name="url" type="text" autocomplete="off"/>
-        </div>
-        <div class="buttons">
-            <button id="google-search">Google Search</button>
-            <button id="lucky">I'm Feeling Lucky</button>
-        </div>
-	    </form>
-	    </div>
-    <div class="footer">
-        <span class="left">
-			<span id="ads"><a href="#">Advertising</a></span>
-	        <span id="business"><a href="#">Business</a></span>
-	        <span id="about"><a href="#">About</a></span>
-        </span>
-        <span class="right">
-        	<span id="ads"><a href="#">Privacy</a></span>
-	        <span id="business"><a href="#">Terms</a></span>
-	        <span id="about"><a href="#">Settings</a></span>
-        </span>
-    </div>
-  	  <script>
-	   	var form = document.getElementById("form");
 
-		document.getElementById("google-search").addEventListener("click", function () {
-		  form.submit();
-		});
-	</script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ec31aa2c1d","applicationID":"203850723","transactionName":"ZFIHMkZUWRECUBZYXl0YMBRdGl4MB1YaH0FbRw==","queueTime":22,"applicationTime":1,"atts":"SBUERA5OSh8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 
+<div id="container">
+
+	<div style="text-align:center;">
+		<h1 style="color:purple;">Titanium Network Proxy</h1>
+                <h1 style="color:green;">Wherearewenow.ml Proxy</h1>														
+		<h3 style="color:blue;">Using the titaniumnetwork proxy will allow you to anonymously visit any site you wish. Due to its anonymous nature, you can even unblock websites that are blocked by school and work firewalls!</h3>
+	</div>
+	
+	<?php if(isset($error_msg)){ ?>
+	
+	<div id="error">
+		<p><?php echo $error_msg; ?></p>
+	</div>
+	
+	<?php } ?>
+	
+	<div id="frm">
+	
+	<!-- I wouldn't touch this part -->
+	
+		<form action="index.php" method="post" style="margin-bottom:0;">
+			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
+			<input type="submit" value="Go" />
+		</form>
+		
+		<script type="text/javascript">
+			document.getElementsByName("url")[0].focus();
+		</script>
+		
+	<!-- [END] -->
+	
+	</div>
+	
+</div>
+	<div style="text-align:center;">
+		<h2 style="color:blue;">Websites that can be unblocked include the following : </h2>
+		<h3 style="color:green;">Youtube</h3>
+		<h3 style="color:green;">Reddit</h3>
+		<h3 style="color:green;">Twitter</h3>
+		<h3 style="color:green;">Dailymotion</h3>
+		<h3 style="color:green;">Liveleaks</h3>
+		<h3 style="color:green;">And many more!</h3>
+	    </div
+<div id="footer">
+	Powered by <a href="//www.falcon-sha256.weebly.com" target="_blank">TitaniumNetwork</a>
+</div>
+
+
+</body>
 </html>
