@@ -83,7 +83,8 @@ function showPage() {
 		<h1 style="color:#ffffff;">MikeLime's Web Proxy</h1>
 		<h3 style="color:#ffffff;">With MikeLime's free web proxy, you can browse the internet freely without your school being able to see what you're doing! This web proxy will even unblock websites, and we have a wide selection of unblocked games.</h3>
 	</div>
-
+<br/>
+<br/>
 	<?php if(isset($error_msg)){ ?>
 
 	<div id="error">
