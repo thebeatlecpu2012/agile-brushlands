@@ -4,7 +4,7 @@ code made by Titanumnetwork,
 img[alt="www.000webhost.com"]{display:none;}
 </style>
 <html>
-<script>print("document.URL;");</script>
+
 <!DOCTYPE html>
 <html>
 <head>
