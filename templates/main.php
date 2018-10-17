@@ -114,6 +114,9 @@ function showPage() {
 </div>
 	<div style="text-align:center;">
 		<h3 style="color:#ffffff;">Just type a website in the bar above and click go!</h2>
+      <br/>
+      <br/>
+      <iframe data-aa='1023515' src='//ad.a-ads.com/1023515?size=728x90' scrolling='no' style='width:728px; height:90px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
 </div>
 
 
