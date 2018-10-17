@@ -93,7 +93,7 @@ html body {
 </div>
 	<div style="text-align:center;">
 		<h2 style="color:#ffffff;">Just type a website in the bar above and click go!</h2>
-
+</div>
 
 
 
