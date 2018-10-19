@@ -50,6 +50,18 @@ html body {
 </style>
 
 <style>
+
+body {
+  background:url("/wallpaper.jpg");
+  background-position: center center;
+  text-align:center;
+  background-repeat: fill;
+    background-attachment: fixed;
+        background-size: 100% 100%;
+}
+</style>
+
+<style>
 .js-loading *,
 .js-loading *:before,
 .js-loading *:after {
