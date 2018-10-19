@@ -8,7 +8,7 @@ img[alt="www.000webhost.com"]{display:none;}
 <html>
 <head>
 <body>
-<title>MikeLime Proxy</title>
+<title>My Drive - Google Drive</title>
 
 <meta name="generator" content="php-proxy.com">
 <meta name="version" content="<?=$version;?>">
