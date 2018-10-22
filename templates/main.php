@@ -92,7 +92,7 @@ function showPage() {
 
 	<div style="text-align:center;">
 		<h1 style="color:#ffffff;">MikeLime's Web Proxy</h1>
-		<h3 style="color:#ffffff;">With MikeLime's free web proxy, you can browse the internet freely without your school being able to see what you're doing! This web proxy will even unblock websites, and we have a wide selection of unblocked games.</h3>
+		<h3 style="color:#ffffff;">With this website, you can browse the internet freely without your school being able to see what you're doing! This web proxy will even unblock websites.</h3>
 	</div>
 <br/>
 <br/>
